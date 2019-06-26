@@ -84,7 +84,7 @@ var _lodash2 = _interopRequireDefault(_lodash);
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var plugin = function plugin(editor, url) {
-  editor.addMenuItem('saveToPdf', {
+  editor.ui.registry.addMenuItem('saveToPdf', {
     text: 'Save to PDF',
     context: 'file',
     image: "//cdn.rawgit.com/Api2Pdf/api2pdf.tinymce/master/save-to-pdf/src/icon.svg",
